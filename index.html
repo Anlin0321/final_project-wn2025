@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="skip"><a href="#index_main">Skip to Main Content</a></div>
+
+    <nav class="navbar navbar-light bg-light">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="China.html">China</a></li>
+            <li><a href="USA.html">USA</a></li>
+        </ul>
+    </nav>
+    <main id="index_main">
+        <div id="title">
+            <h1 >Welcome to my traveling site!</h1>
+            <p>As a huge fan of traveling as well as an international student from China, I have been to over 30 cities in my spare time in last 3 years. I gained countless joy and warmth during my journeys that I can't wait to share with you. Hope you will find somewhere attracts you as your next destination as you explore some of my experiences. Always on the road!<br><br>
+                Tip: Start by choosing a country!
+            </p>
+        </div>
+        <div id="country">
+            <h2>China</h2>
+            <h2>United States</h2>
+            <a href="China.html">
+                <img src="image/China.png" alt="China">
+            </a>
+            <a href="USA.html">
+                <img src="image/USA.png" alt="US">
+            </a>
+        </div>
+
+    </main>
+</body>
+<footer><p id="date"></p></footer>
+<script>
+    document.querySelector('#date').innerHTML=`Anlin Ma &copy ${new Date().getFullYear()}`
+</script>
+</html>
